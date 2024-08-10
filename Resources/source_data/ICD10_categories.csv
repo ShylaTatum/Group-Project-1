@@ -10,3 +10,14 @@ H60-H95,Ear and mastoid process diseases
 I00-I99,Circulatory system diseases
 J00-J99,Respiratory system diseases
 K00-K95,Digestive system diseases
+L00-L99, Diseases of the skin and subcutaneous tissue
+M00-M99, Diseases of the musculoskeletal system and connective tissue
+N00-N99, Diseases of the genitourinary system
+O00-O9A,"Pregnancy, childbirth and the puerperium"
+P00-P96,Certain conditions originating in the perinatal period
+Q00-Q99,"Congenital malformations, deformations and chromosomal abnormalities"
+R00-R99,"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified"
+S00-T88,"Injury, poisoning and certain other consequences of external causes"
+U00-U85,"Codes for special purposes"
+V00-Y99,External causes of morbidity
+Z00-Z99,Factors influencing health status and contact with health services
