@@ -17,7 +17,7 @@ All analysis looks closely at the association of ICD (International Classificati
 
 - Gender Analysis, Shyla Tatum - View Juypter Notebook
 - (Mortality Predictions), Rian King
-- (Add Section Title Here), Jack Kuppuswamy
+- (Mortality Age Group Visualizations), Jack Kuppuswamy
 - (Add Section Title Here), Vaughan Roberts
 - (Add Section Title Here), Jenn Allen
 
@@ -67,7 +67,7 @@ The analysis provides mortality forecasts for each of the 12 countries, highligh
 View Jupyter Workbook
 
 
-### Analysis: (Add Section Title Here), Jack Kuppuswamy
+### Analysis: (Mortality Age Group Visualizations), Jack Kuppuswamy
 
 View Jupyter Workbook
 
