@@ -36,6 +36,7 @@ Gender was graphed by year as a side-by-side comparison. The data was grouped an
 - [Changing the color](https://stackoverflow.com/questions/63460213/how-to-define-colors-in-a-figure-using-plotly-graph-objects-and-plotly-express)
 
 ### Analysis: (Mortality Predictions), Rian King
+
 [View Juypter Notebook](./analysis_findings/workbooks/Profit_Predictions_rking.ipynb)
 
 #### Mortality Predictions Summary
@@ -67,7 +68,7 @@ The project utilizes mortality data provided by the World Health Organization, f
 
 The analysis provides mortality forecasts for each of the 12 countries, highlighting differences and commonalities in mortality trends. The predictions help identify potential areas of concern for public health and can guide targeted interventions to reduce mortality rates.
 
-### Analysis: (Mortality Age Group Visualizations), Jack Kuppuswamy
+### Analysis: Mortality Age Group Visualizations, Jack Kuppuswamy
 
 [View Juypter Notebook](./analysis_findings/workbooks/mortality_agegroup_visualizations_jkuppuswamy.ipynb)
 
@@ -97,11 +98,11 @@ The Jupyter Notebook `mortality_agegroup_visualizations.ipynb` provides visualiz
 
 Similar customization features are applied, including setting axis limits, customizing tick marks, and positioning the legend.
 
-## Customization
+#### Customization
 
 The plots can be customized further by modifying parameters in the plotting functions, such as changing the color map, adjusting axis labels, or adding additional data points.
 
-### Analysis: (Add Section Title Here), Vaughan Roberts
+### Analysis: Add Section Title Here, Vaughan Roberts
 
 [View Juypter Notebook](./analysis_findings/workbooks/visualizations_VRO.ipynb)
 
