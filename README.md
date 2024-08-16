@@ -9,6 +9,15 @@ This project includes data analysis with Python, Pandas, and Matplotlib for the 
 
 Key contributors: Jack Kuppuswamy, Jenn Allen, Rian King, Shyla Tatum, Vaughan Roberts
 
+## Research
+The objective of this project is to analyze the cause of death (morbidity, co-morbidity) and overall mortality statistics from two years before the COVID-19 pandemic (2017-2019), during the pandemic (2020-2021) to the amount of data that we have. The research initially scoped with data sources from the CDC, Governmental Health Departments and the WHO. Scope definition and execution resulted with COVID19 coverage as a global story with a sub-selection of countries based on the WHO datasets. 
+
+Researchers: Rian King, Vaughan Roberts, Shyla Tatum
+
+[Research Questions](./resources/documentation/Research_Questions.md)
+[Country COVID Response Findings](./resources/documentation/Country%20Covid%20Response.xlsx)
+[COVID Response by Country Citations](./resources/documentation/Covid%20Response%20by%20Country%20Citations.docx)
+
 ## In-Depth Analysis
 
 All analysis looks closely at the association of ICD (International Classification of Diseases) codes to the WHO mortality data.
@@ -105,7 +114,7 @@ The plots can be customized further by modifying parameters in the plotting func
 
 [View Juypter Notebook](./analysis_findings/workbooks/visualizations_VRO.ipynb)
 
-Overview goes here
+Selected country group (four) based on reporting activity counts of lowest and highest for total deaths and total covid-19 deaths. 
 
 ### Analysis: Population and Mortality Relationships, Jenn Allen
 
