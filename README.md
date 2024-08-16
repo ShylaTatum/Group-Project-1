@@ -16,7 +16,7 @@ All analysis looks closely at the association of ICD (International Classificati
 **List of workbooks**
 
 - Gender Analysis, Shyla Tatum - View Juypter Notebook
-- (Add Section Title Here), Rian King
+- (Mortality Predictions), Rian King
 - (Add Section Title Here), Jack Kuppuswamy
 - (Add Section Title Here), Vaughan Roberts
 - (Add Section Title Here), Jenn Allen
@@ -35,7 +35,34 @@ Gender was graphed by year as a side-by-side comparison. The data was grouped an
 - [filter using OR](https://www.statology.org/or-operator-in-pandas/)
 - [Changing the color](https://stackoverflow.com/questions/63460213/how-to-define-colors-in-a-figure-using-plotly-graph-objects-and-plotly-express)
 
-### Analysis: (Add Section Title Here), Rian King
+### Analysis: (Mortality Predictions), Rian King
+
+## Mortality Predictions Summary
+
+This part of the project focuses on predicting mortality outcomes using time series forecasting and machine learning techniques. The primary objective is to create accurate mortality predictions across multiple countries, leveraging historical data and advanced algorithms.
+
+### Objectives
+- **Data Collection**: Utilize World Health Organization (WHO) data, specifically mortality statistics across 12 countries, to build a comprehensive dataset.
+- **Data Processing**: Preprocess and clean the WHO data to ensure accuracy and consistency for model training and predictions.
+- **Time Series Forecasting**: Implement Facebook's Prophet model to forecast mortality trends over time, accommodating for seasonality, holidays, and other temporal patterns.
+- **Country-Specific Predictions**: Generate and analyze mortality predictions for each of the 12 countries, considering unique demographic and healthcare-related factors.
+- **Model Evaluation**: Evaluate the accuracy and reliability of the Prophet model's predictions using relevant metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).
+- **Interpretability**: Provide insights into the factors driving mortality trends in each country, with the aim of informing public health policies and interventions.
+
+### Technologies Used
+- **Python**: Core programming language for data processing, model development, and evaluation.
+- **Prophet**: For time series forecasting and generating mortality predictions.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib/Seaborn**: For data visualization and exploring trends.
+- **Jupyter Notebook**: For interactive development and documentation.
+
+### WHO Data
+The project utilizes mortality data provided by the World Health Organization, focusing on 12 diverse countries. This data includes various health and demographic indicators, allowing for a nuanced analysis of mortality trends across different regions.
+
+### Predictions Across 12 Countries
+The analysis provides mortality forecasts for each of the 12 countries, highlighting differences and commonalities in mortality trends. The predictions help identify potential areas of concern for public health and can guide targeted interventions to reduce mortality rates.
+
+
 
 View Jupyter Workbook
 
