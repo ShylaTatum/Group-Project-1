@@ -13,17 +13,17 @@ Key contributors: Jack Kuppuswamy, Jenn Allen, Rian King, Shyla Tatum, Vaughan R
 
 All analysis looks closely at the association of ICD (International Classification of Diseases) codes to the WHO mortality data.
 
-**List of workbooks**
+List of workbooks used for analysis:
 
-- Gender Analysis, Shyla Tatum - View Juypter Notebook
-- (Mortality Predictions), Rian King
-- (Mortality Age Group Visualizations), Jack Kuppuswamy
-- (Add Section Title Here), Vaughan Roberts
-- (Add Section Title Here), Jenn Allen
+- Gender Analysis, Shyla Tatum - [View Juypter Notebook](./analysis_findings/workbooks/WHO_vizualizations_statum.ipynb)
+- Mortality Predictions, Rian King - [View Juypter Notebook](./analysis_findings/workbooks/Profit_Predictions_rking.ipynb)
+- Mortality Age Group Visualizations, Jack Kuppuswamy - [View Juypter Notebook](./analysis_findings/workbooks/mortality_agegroup_visualizations_jkuppuswamy.ipynb)
+- Add Section Title Here, Vaughan Roberts - [View Juypter Notebook](./analysis_findings/workbooks/visualizations_VRO.ipynb)
+- Population and Mortality Relationships, Jenn Allen - [View Juypter Notebook](./analysis_findings/workbooks/population_death_analysis_jallen.ipynb)
 
 ### Analysis: Gender Analysis, Shyla Tatum
 
-View Jupyter Workbook
+[View Juypter Notebook](./analysis_findings/workbooks/WHO_vizualizations_statum.ipynb)
 
 Gender was graphed by year as a side-by-side comparison. The data was grouped and then cleaned to the relevant data. Gender was also analyzed by grouping by country and then graphing female to the left and males to the right by total deaths during the 5 years.
 
@@ -36,40 +36,40 @@ Gender was graphed by year as a side-by-side comparison. The data was grouped an
 - [Changing the color](https://stackoverflow.com/questions/63460213/how-to-define-colors-in-a-figure-using-plotly-graph-objects-and-plotly-express)
 
 ### Analysis: (Mortality Predictions), Rian King
+[View Juypter Notebook](./analysis_findings/workbooks/Profit_Predictions_rking.ipynb)
 
-## Mortality Predictions Summary
+#### Mortality Predictions Summary
 
 This part of the project focuses on predicting mortality outcomes using time series forecasting and machine learning techniques. The primary objective is to create accurate mortality predictions across multiple countries, leveraging historical data and advanced algorithms.
 
-### Objectives
+#### Objectives
+
 - **Data Collection**: Utilize World Health Organization (WHO) data, specifically mortality statistics across 12 countries, to build a comprehensive dataset.
 - **Data Processing**: Preprocess and clean the WHO data to ensure accuracy and consistency for model training and predictions.
 - **Time Series Forecasting**: Implement Facebook's Prophet model to forecast mortality trends over time, accommodating for seasonality, holidays, and other temporal patterns.
 - **Country-Specific Predictions**: Generate and analyze mortality predictions for each of the 12 countries, considering unique demographic and healthcare-related factors.
 - **Model Evaluation**: Evaluate the accuracy and reliability of the Prophet model's predictions using relevant metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).
-- **Interpretability**: Provide insights into the factors driving mortality trends in each country, with the aim of informing public health policies and interventions.
+- **Interpretability**: Provide insights into the factors driving mortality trends in each country, to inform public health policies and interventions.
 
-### Technologies Used
+#### Technologies Used
+
 - **Python**: Core programming language for data processing, model development, and evaluation.
 - **Prophet**: For time series forecasting and generating mortality predictions.
 - **Pandas**: For data manipulation and analysis.
 - **Matplotlib/Seaborn**: For data visualization and exploring trends.
 - **Jupyter Notebook**: For interactive development and documentation.
 
-### WHO Data
+#### WHO Data
+
 The project utilizes mortality data provided by the World Health Organization, focusing on 12 diverse countries. This data includes various health and demographic indicators, allowing for a nuanced analysis of mortality trends across different regions.
 
-### Predictions Across 12 Countries
+#### Predictions Across 12 Countries
+
 The analysis provides mortality forecasts for each of the 12 countries, highlighting differences and commonalities in mortality trends. The predictions help identify potential areas of concern for public health and can guide targeted interventions to reduce mortality rates.
-
-
-
-View Jupyter Workbook
-
 
 ### Analysis: (Mortality Age Group Visualizations), Jack Kuppuswamy
 
-View Jupyter Workbook
+[View Juypter Notebook](./analysis_findings/workbooks/mortality_agegroup_visualizations_jkuppuswamy.ipynb)
 
 The Jupyter Notebook `mortality_agegroup_visualizations.ipynb` provides visualizations of mortality data across different age groups and ICD categories over the years. The visualizations help in understanding trends and patterns in mortality rates, especially within specific age groups and disease categories.
 
@@ -103,15 +103,21 @@ The plots can be customized further by modifying parameters in the plotting func
 
 ### Analysis: (Add Section Title Here), Vaughan Roberts
 
-View Jupyter Workbook
+[View Juypter Notebook](./analysis_findings/workbooks/visualizations_VRO.ipynb)
 
 Overview goes here
 
-### Analysis: (Add Section Title Here), Jenn Allen
+### Analysis: Population and Mortality Relationships, Jenn Allen
 
-View Jupyter Workbook
+[View Jupyter Workbook](./analysis_findings/workbooks/population_death_analysis_jallen.ipynb)
 
-Overview goes here
+This analysis looks at how population impacts the average mortality rate, broken up between time windows: 2017-2019. Our findings show that population size and the total number of deaths are strongly correlated. This is not surprising. However, our analysis uncovered that Japan has a larger overall percentage of its population dying relative to other populations. We also saw COVID-19 did not show up as one of the top 5 causes of death in Japan in 2020 or 2021.
+
+The population data is sourced from the WHO dataset and was cleaned using this [Jupyter Notebook](./cleaned_data/who_pop_cleaning_workbook.ipynb). The workbook imports the cleaned mortality CSV and merges the datasets. We found that most countries did not have WHO population data for this timeframe, which reduced our overall number of countries to report.
+
+![2017-2019 Population vs Death](./analysis_findings/visualizations/population_vs_death_2017_2019.png)
+
+![2020-2021 Population vs Death](./analysis_findings/visualizations/population_vs_death_2020_2021.png)
 
 ## How to Run this Project
 
@@ -142,7 +148,7 @@ First, clone this repository and then open the notebook file you want to see the
      jupyter notebook
      ```
 
-3. Open the notebook (`woorkbook_name_here`) in the browser and run the cells.
+3. Open the notebook (`example_workbook_name_here`) in the browser and run the cells.
 
 ## Contributing
 
